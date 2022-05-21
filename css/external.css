@@ -1,0 +1,58 @@
+html {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+.arrtrs {
+  position: relative;
+}
+
+.arrtrs:hover span {
+  transform: translateX(8px);
+}
+@media (max-width: 380px) {
+  .github {
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    border-radius: 50%;
+    color: transparent;
+    white-space: nowrap;
+  }
+  .github svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+.github {
+  padding: 8px 12px;
+  border-radius: 50px;
+  position: fixed;
+  right: 30px;
+  bottom: 80px;
+  background-color: #4a5568;
+  color: rgb(255, 255, 255);
+  display: inline-flex;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+.github svg {
+  width: 24px;
+  flex-shrink: 0;
+  margin-right: 6px;
+}
+.pbe{
+    flex-direction: row !important;
+}
+
+
+.goback:hover .arr{
+    transform: translateX(-16px);
+    position: relative;
+}
